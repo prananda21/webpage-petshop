@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Open Sans";
+    margin: 0;
+}
+
+.top-wrapper {
+    padding-top: 220px;
+    padding-bottom: 250px;
+    padding-left: 30px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+.text-line {
+    padding-bottom: 30px;
+}
+
+.text-line h1 {
+    font-size: 40px;
+    font-weight: 410;
+}
+
+.text-line p {
+    font-size: 14px;
+}
+
+.main-image {
+    float: right;
+}
+
+.btn {
+    padding: 12px 24px;
+    display: inline-block;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cek {
+    background-color: #08418c;
+    transition: all 0.5s;
+    font-weight: bold;
+    cursor: default;
+}
+
+.cek:hover {
+    background-color: #072850;
+}
+
