@@ -13,8 +13,66 @@ body {
     margin: 0;
 }
 
+/*Bagian Header*/
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #325784;
+    float: left;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 15px 20px;
+}
+
+.logo-header {
+    width: 65px;
+    margin: 8px 20px;
+    float: left;
+}
+
+.header-list {
+    float: left;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.header-list li {
+    transition: all 0.2s;
+}
+
+.header-list li:hover {
+    background-color: #4877b2;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    line-height: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #2d4665;
+    color: white;
+    display: block;
+    transition: all 0.5s;
+    margin: 0px 20px;
+}
+
+.header-right a:hover {
+    background-color: #1f2f44;
+}
+
+/*Bagian Main*/
 .top-wrapper {
-    padding-top: 220px;
+    padding-top: 250px;
     padding-bottom: 250px;
     padding-left: 30px;
     width: 1170px;
@@ -53,7 +111,7 @@ body {
     background-color: #08418c;
     transition: all 0.5s;
     font-weight: bold;
-    cursor: default;
+    cursor: pointer;
 }
 
 .cek:hover {
