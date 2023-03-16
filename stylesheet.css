@@ -96,6 +96,16 @@ span.menu-icon {
     margin: 0 auto;
 }
 
+.top-wrapper div.text-line h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.top-wrapper div.text-line p {
+    font-size: 20px;
+}
+
 
 .text-line {
     padding-bottom: 30px;

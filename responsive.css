@@ -4,6 +4,13 @@
         display: none;
     }
     /*main*/
+    .top-wrapper div.text-line h1{
+        font-size: 32px;
+    }
+
+    .top-wrapper div.text-line p{
+        font-size: 12px;
+    }
     /*content*/
     div div.mc-product{
         width: 45%;
