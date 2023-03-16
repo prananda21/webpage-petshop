@@ -5,6 +5,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
@@ -35,11 +37,12 @@ li {
 
 .logo-header {
     width: 65px;
-    margin: 8px 20px;
+    margin: 10px 20px;
     float: left;
 }
 
 .header-list {
+    padding: 15px;
     float: left;
     color: white;
     cursor: pointer;
@@ -76,6 +79,14 @@ li {
     background-color: #1f2f44;
 }
 
+span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+
 /*Bagian Main*/
 .top-wrapper {
     padding-top: 180px;
@@ -105,7 +116,8 @@ li {
 }
 
 .btn {
-    padding: 12px 24px;
+    width: 100%;
+    padding: 15px 32px;
     display: inline-block;
     color: white;
     border-radius: 3px;
@@ -367,9 +379,9 @@ div a.care:hover{
 }
 .container-content{
     display: flex;
-    gap: 0.1rem;
+    gap: 1rem;
     flex-direction: column;
-    padding-bottom: 4rem;
+    padding-bottom: 10rem;
 }
 
 .container-content h1{
@@ -417,7 +429,7 @@ div a.care:hover{
 }
  input{
     padding: 0.4rem;
-    width: calc(50% - 2rem);
+    width: calc(50% - 1rem);
     height: 3rem;
     font-size: 18px;
 
@@ -463,10 +475,11 @@ ul{
 	background-color: #325784;
     width: 100%;
 
+
 }
 .footer-col{
    width: 25%;
-   padding: 0 15px;
+   padding: 20px 15px;
 }
 .footer-col h4{
 	font-size: 18px;
